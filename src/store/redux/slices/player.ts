@@ -1,6 +1,6 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { useAppSelector } from "..";
-import { api } from "../../lib/axios";
+import { api } from "../../../lib/axios";
 
 interface Course {
   id: number
